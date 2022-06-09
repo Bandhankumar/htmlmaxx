@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>reg form</titel>
+</head>
+<body>
+<form>
+      
+    name&nbsp;&nbsp;&nbsp;<input type="test" name="placeholder="name"<br>
+    <lebal>
+    <br>
+    <br>
+    mobile<input type="test" name="placeholder="mobile number"<br>
+    <br>
+     <lebal>
+       <br>
+      
+    
+    
+    
+    
+    
+    email&nbsp;&nbsp;<input type="test" name="placeholder="email"<br>
+    <lebal>
+      <br>
+      <br>
+       <input type="submit" name=""
+       </from>
+       <?php
+       $con=mysqil_connect('sqlitemanegar','
+       root','','record');if(isset($_post['sb']))
+       {
+          $name=$_post['nm'];
+          $mobile=$_post['mb'];
+          $email=$_post['em'];
+          $query="INSERT INR register(NAME,MOBILE;EMAIL) VALUES ('$name','$email')";
+          $run=mysil_query($con,$query);
+          
+          
+{
+?>
+</form> 
+</body>
+</html>
